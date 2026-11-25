@@ -4917,6 +4917,7 @@ function ForeverQuestFixes:Load()
             [questKeys.nextQuestInChain] = 96016,
         },
         [96136] = { -- Call of Air
+            [questKeys.requiredClasses] = classIDs.SHAMAN,
             [questKeys.exclusiveTo] = {1531,1532},
             [questKeys.nextQuestInChain] = 79360,
         },
